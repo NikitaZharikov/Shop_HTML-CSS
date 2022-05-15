@@ -492,3 +492,32 @@ a {
 }
 
 /* footer end ________________________________________*/
+
+.breadcrumbs {
+    padding: 60px 0 60px 0;
+    background-color: #F8F3F4;
+}
+
+.breadcrumbs_title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+
+.breadcrumbs_links,
+.breadcrumbs_links_slash {
+    display: flex;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+}
+
+.breadcrumbs_links_slash {
+    padding: 0 6px 0 6px;
+}

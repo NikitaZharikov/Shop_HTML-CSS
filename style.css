@@ -153,7 +153,7 @@ a {
 .offer_card_for_women {
     width: 31%;
     height: 260px;
-    background-image: url(img/offer/for_women.png);
+    background-image: url(img/picture/for_women.png);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -165,7 +165,7 @@ a {
 .offer_card_for_men {
     width: 31%;
     height: 260px;
-    background-image: url(img/offer/for_men.png);
+    background-image: url(img/picture/for_men.png);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -177,7 +177,7 @@ a {
 .offer_card_for_kids {
     width: 31%;
     height: 260px;
-    background-image: url(img/offer/for_kids.png);
+    background-image: url(img/picture/for_kids.png);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -190,7 +190,7 @@ a {
     margin: 30px 0 0 0;
     width: 100%;
     height: 180px;
-    background-image: url(img/offer/accesories.png);
+    background-image: url(img/picture/accesories.png);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -378,7 +378,7 @@ a {
 .subscribe {
     padding: 112px 0 112px 0;
     background-image: linear-gradient(rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7)),
-        url(img/subscribe/subscribe_img.jpg);
+        url(img/picture/subscribe_img.jpg);
     background-color: #F3F3F3;
     background-size: cover;
     background-repeat: no-repeat;
@@ -626,7 +626,7 @@ a {
 
 .slider {
     min-height: 777px;
-    background-image: url(img/product/main_img.png);
+    background-image: url(img/picture/main_slider_img.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #F7F7F7;

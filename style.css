@@ -67,7 +67,7 @@
 .search-icon-form {
     display: flex;
     position: relative;
-} 
+}
 
 .search-icon-form__label {
     display: flex;
@@ -98,7 +98,7 @@
     font-family: 'Lato';
     text-transform: capitalize;
 }
-  
+
 .search-icon-form__input:focus {
     min-width: 700px;
     min-height: 20px;
@@ -280,6 +280,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 /* HOVER CARD START*/
 .txt {
     font-family: Lato;
@@ -291,21 +292,21 @@
     position: relative;
     background: #F8F8F8;
 }
-  
+
 .products-item:hover .products-item-btn {
     display: flex;
 }
 
 .products-item:hover .products-item-photo {
     filter: brightness(50%);
-} 
+}
 
 .products-item-txt-wrp {
     padding: 25px 18px 20px 18px;
     box-sizing: border-box;
     text-align: left;
 }
-  
+
 .products-item-title {
     display: block;
     margin: 0 0 12px 0;
@@ -314,7 +315,7 @@
     line-height: 16px;
     color: #000000;
 }
-  
+
 .products-item-txt {
     margin: 0 0 18px 0;
     font-weight: 300;
@@ -322,7 +323,7 @@
     line-height: 17px;
     color: #5D5D5D;
 }
-  
+
 .products-item-price {
     display: block;
     margin: 0;
@@ -330,7 +331,7 @@
     line-height: 19px;
     color: #F16D7F;
 }
-  
+
 .products-item-btn {
     display: none;
     justify-content: center;
@@ -347,11 +348,17 @@
     top: 188px;
     left: 32.7%;
 }
-  
+
 .products-item-btn svg {
     fill: #fff;
     margin: 0 11px 0 0;
-  }
+}
+
+.products-item-btn:hover {
+    border: 2px solid #F16D7F;
+}
+
+
 
 /* HOVER CARD END*/
 
@@ -404,7 +411,12 @@
     background-color: #FFFFFF;
 }
 
-.page_number{
+.browse_all_product:hover {
+    background-color: #FF6A6A;
+    color: #fff;
+}
+
+.page_number {
     color: #C4C4C4;
 }
 
@@ -586,7 +598,7 @@
     margin-right: 8px;
 }
 
-.socialmedia_item:hover{
+.socialmedia_item:hover {
     background-color: #EF5B70;
 }
 
@@ -722,7 +734,7 @@
     justify-content: space-between;
 }
 
-.product_page_card_block{
+.product_page_card_block {
     margin: 0 0 96px 0;
 }
 
@@ -844,36 +856,38 @@
 
 /* CART START */
 
-.cart_items_register{
+.cart_items_register {
     margin-top: 56px;
     margin-bottom: 128px;
 }
-.cart_item_container{
+
+.cart_item_container {
     width: 652px;
 }
-.cart_item{
+
+.cart_item {
     padding-top: 40px;
     min-width: 652px;
     display: flex;
 }
 
-.cart_item_img{
+.cart_item_img {
     max-width: 256px;
 }
 
-.cart_item_discript{
+.cart_item_discript {
     width: 100%;
     padding: 20px;
     display: flex;
     flex-direction: column;
 }
 
-.main_title_in_cart{
+.main_title_in_cart {
     display: flex;
     justify-content: space-between;
 }
 
-.cart_item_title{
+.cart_item_title {
     padding: 0 0 40px 0;
     font-family: 'Lato';
     font-style: normal;
@@ -883,7 +897,7 @@
     color: #222222;
 }
 
-.cart_item_param{
+.cart_item_param {
     padding: 6px 0 0 0;
     font-family: 'Lato';
     font-style: normal;
@@ -893,7 +907,7 @@
     color: #575757;
 }
 
-.in_cart_input{
+.in_cart_input {
     width: 48px;
     height: 28px;
     font-family: 'Lato';
@@ -906,11 +920,12 @@
     border: 1px solid #EAEAEA;
 }
 
-.cart_buttons{
-    padding: 89px 0 0 0 ;
+.cart_buttons {
+    padding: 89px 0 0 0;
     display: flex;
     justify-content: space-between;
 }
+
 .button_clear_cart,
 .button_continue_shoping {
     font-family: 'Lato';
@@ -925,18 +940,18 @@
 }
 
 
-.cart_register{
+.cart_register {
     padding-top: 40px;
     display: flex;
     flex-direction: column;
 }
 
-.cart_items_register{
+.cart_items_register {
     display: flex;
     justify-content: space-between;
 }
 
-.cart_register_input{
+.cart_register_input {
     padding-left: 16px;
     margin-bottom: 20px;
     min-width: 360px;
@@ -950,7 +965,7 @@
     color: #B1B1B1;
 }
 
-.button_clear_get_quote{
+.button_clear_get_quote {
     background-color: white;
     font-family: 'Lato';
     font-style: normal;
@@ -963,7 +978,7 @@
     border: 1px solid #A4A4A4;
 }
 
-.cart_register_title{
+.cart_register_title {
     padding-bottom: 20px;
     font-family: 'Lato';
     font-style: normal;
@@ -973,7 +988,7 @@
     color: #222222;
 }
 
-.cart_price_total{
+.cart_price_total {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -983,7 +998,7 @@
     padding: 40px;
 }
 
-.sub_total{
+.sub_total {
     padding-bottom: 12px;
     font-family: 'Lato';
     font-style: normal;
@@ -993,11 +1008,11 @@
     color: #4A4A4A;
 }
 
-.sub_total_price{
+.sub_total_price {
     padding-left: 24px;
 }
 
-.change_color_cart{
+.change_color_cart {
     padding-left: 24px;
     font-family: 'Lato';
     font-style: normal;
@@ -1007,7 +1022,7 @@
     color: #F16D7F;
 }
 
-.grand_total{
+.grand_total {
     padding-bottom: 40px;
     font-family: 'Lato';
     font-style: normal;
@@ -1018,7 +1033,7 @@
     position: relative;
 }
 
-.grand_total::after{
+.grand_total::after {
     content: '';
     background: #E2E2E2;
     width: 275px;
@@ -1028,7 +1043,7 @@
     left: -151px;
 }
 
-.button_proceed{
+.button_proceed {
     width: 100%;
     background: #F16D7F;
     padding: 15px 40px;
@@ -1045,7 +1060,7 @@
 
 /* SIGN UP START*/
 
-.register_title{
+.register_title {
     margin-bottom: 20px;
     font-family: 'Lato';
     font-style: normal;
@@ -1060,14 +1075,14 @@
     justify-content: space-between;
 }
 
-.sign_register_radio_but{
+.sign_register_radio_but {
     padding: 10px 0 31px 0;
     display: flex;
     justify-content: space-between;
     max-width: 132px;
 }
 
-.text_label{
+.text_label {
     padding-left: 10px;
     font-family: 'Lato';
     font-style: normal;
@@ -1078,16 +1093,17 @@
 }
 
 .signup_register,
-.your_name_form{
+.your_name_form {
     display: flex;
     flex-direction: column;
 }
 
-.signup_register{
+.signup_register {
     width: 360px;
     margin: 64px 0 96px 0;
 }
-.form_hint{
+
+.form_hint {
     margin: -5px 0 39px 0;
     font-family: 'Lato';
     font-style: normal;
@@ -1097,7 +1113,7 @@
     color: #B1B1B1;
 }
 
-.button_join_now{
+.button_join_now {
     padding: 16px 29px;
     font-family: 'Lato';
     font-style: normal;
@@ -1113,13 +1129,14 @@
     align-items: center;
 }
 
-.sign_sect_perks_block{
+.sign_sect_perks_block {
     margin: 64px 0 277px 0;
     max-width: 652px;
 }
+
 .sign_perks_header,
 .sign_perks_parag,
-.perk_item_text{
+.perk_item_text {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
@@ -1127,15 +1144,16 @@
     line-height: 29px;
     color: #000000;
 }
-.sign_perks_parag{
+
+.sign_perks_parag {
     padding: 22px 0;
 }
 
-.perks_item{
+.perks_item {
     margin-bottom: 16px;
 }
 
-.perk_item_text{
+.perk_item_text {
     padding-left: 20px;
 }
 

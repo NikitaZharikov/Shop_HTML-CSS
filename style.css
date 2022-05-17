@@ -1,9 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-a {
+    list-style-type: none;
     text-decoration: none;
 }
 
@@ -184,7 +182,6 @@ a {
 }
 
 .offer_list {
-    list-style-type: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -279,7 +276,6 @@ a {
 /* products list start ________________________________________*/
 
 .products_list {
-    list-style-type: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -403,13 +399,9 @@ a {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    color: #FF6A6A;
     border: 1px solid #FF6A6A;
     background-color: #FFFFFF;
-}
-
-.decnone{
-    text-decoration: none;
-    color: #F26376;
 }
 
 .page_number{
@@ -428,7 +420,6 @@ a {
     padding: 104px 0 104px 0;
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
 }
 
 .feature_card {
@@ -586,7 +577,6 @@ a {
 
 .footer_socialmedia {
     display: flex;
-    list-style-type: none;
 }
 
 .socialmedia_item {
@@ -695,7 +685,6 @@ a {
 
 .pages_list {
     display: flex;
-    list-style-type: none;
     border-radius: 4px;
     border: 1px solid #EBEBEB;
     padding: 12px 16px;
@@ -712,7 +701,6 @@ a {
     font-size: 16px;
     line-height: 19px;
     color: #C4C4C4;
-    text-decoration: none;
     padding: 0 12px 0 12px;
 }
 
@@ -846,7 +834,6 @@ a {
 
 .products_list_offers {
     margin-bottom: 128px;
-    list-style-type: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -1054,5 +1041,102 @@ a {
     color: #FFFFFF;
 }
 
-
 /* CART END */
+
+/* SIGN UP START*/
+
+.register_title{
+    margin-bottom: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.contant_main_singup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign_register_radio_but{
+    padding: 10px 0 31px 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 132px;
+}
+
+.text_label{
+    padding-left: 10px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.signup_register,
+.your_name_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.signup_register{
+    width: 360px;
+    margin: 64px 0 96px 0;
+}
+.form_hint{
+    margin: -5px 0 39px 0;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+
+.button_join_now{
+    padding: 16px 29px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    width: 50%;
+    background: #F16D7F;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign_sect_perks_block{
+    margin: 64px 0 277px 0;
+    max-width: 652px;
+}
+.sign_perks_header,
+.sign_perks_parag,
+.perk_item_text{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.sign_perks_parag{
+    padding: 22px 0;
+}
+
+.perks_item{
+    margin-bottom: 16px;
+}
+
+.perk_item_text{
+    padding-left: 20px;
+}
+
+/* SIGN UP END */

@@ -144,18 +144,22 @@
     background-color: #F16D7F;
     position: absolute;
     top: 3px;
-    left: -4px;
+    left: -27px;
+}
+
+.top_img {
+    margin: 0 64px 0 0;
 }
 
 .h1_top_text,
 .p_top_text {
-    margin-left: 16px;
+    margin: 0 16px 0 0px;
 }
 
 .h1_top_text {
     font-family: 'Lato';
     font-style: normal;
-    font-weight: bolder;
+    font-weight: 900;
     font-size: 48px;
     line-height: 58px;
     color: #222222;

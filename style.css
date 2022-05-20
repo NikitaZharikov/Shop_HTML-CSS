@@ -923,9 +923,11 @@
 }
 
 .cart_item {
-    padding-top: 40px;
+    margin-top: 40px;
     min-width: 652px;
     display: flex;
+    box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+
 }
 
 .cart_item_img {

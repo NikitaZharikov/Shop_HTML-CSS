@@ -21,7 +21,7 @@
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    src: local('Lato') url(font/Lato-Regular.woff);
+    src: url(font/Lato-Regular.woff);
 }
 
 /* font bold */
@@ -29,7 +29,7 @@
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
-    src: local('Lato') url(font/Lato-Bold.woff);
+    src: url(font/Lato-Bold.woff);
 }
 
 /* font black */
@@ -37,7 +37,7 @@
     font-family: 'Lato';
     font-style: normal;
     font-weight: 900;
-    src: local('Lato') url(font/Lato-Black.woff);
+    src: url(font/Lato-Black.woff);
 }
 
 /* font italic */
@@ -45,7 +45,7 @@
     font-family: 'Lato';
     font-style: italic;
     font-weight: 400;
-    src: local('Lato') url(font/Lato-Italic.woff);
+    src: url(font/Lato-Italic.woff);
 }
 
 /* HEADER start ________________________________________*/

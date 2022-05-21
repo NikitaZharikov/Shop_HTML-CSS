@@ -116,9 +116,127 @@
 }
 
 .menu_bar {
-    float: right;
-    margin-top: auto;
-    margin-bottom: auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+/* MENU */
+
+#page_menu {
+    display: none;
+}
+
+#page_menu:checked~.page_menu_list {
+    display: block;
+}
+
+.page_menu_list {
+    display: none;
+    width: 100%;
+    max-width: 232px;
+    min-height: 764px;
+    padding: 16px 33px;
+    box-sizing: border-box;
+    background-color: #fff;
+    position: absolute;
+    top: 75px;
+    right: 0;
+    z-index: 20;
+}
+
+.page_menu_list_close_btn {
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    left: 170px;
+}
+
+.page_menu_list_close_btn::before,
+.page_menu_list_close_btn::after {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 2px;
+    background: #6F6E6E;
+    border-radius: 10px;
+    position: absolute;
+    top: 5px;
+    left: -3px;
+    transform: rotate(45deg);
+}
+
+.page_menu_list_close_btn::after {
+    transform: rotate(-45deg);
+}
+
+.page_menu_list_close_btn:hover::before,
+.page_menu_list_close_btn:hover::after {
+    background: #B7B6B6;
+}
+
+.page_menu_list_close_btn:active::before,
+.page_menu_list_close_btn:active::after {
+    background: #F16D7F;
+}
+
+.page_menu_list_title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: block;
+    margin: 9px 0 24px 0;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.page_menu_list_item {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    display: block;
+    margin: 0 0 11px 0;
+}
+
+.page_submenu_list {
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+}
+
+.page_submenu_list_item {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 11px 0;
+    color: #6F6E6E;
+}
+
+.page_submenu_list_item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* MENU */
+
+.nav_burger,
+.nav_account {
+    padding-right: 32px;
 }
 
 .click_icon_burger {
@@ -145,10 +263,6 @@
     fill: #F16D7F;
 }
 
-.nav_burger,
-.nav_account {
-    padding-right: 32px;
-}
 
 /* HEADER END__________________________ */
 

@@ -68,20 +68,64 @@
 
     <main>
         <div class="filter_sorting container">
-            <div class="filter">
-                <p class="filter_text">FILTER</p>
-                <img class="filter_icon" src="img/svg/filter_icon.svg" alt="">
-            </div>
+            <nav>
+                <label class="filter" for="page_filter">
+                    <p class="filter_text">FILTER</p>
+                    <img class="filter_icon" src="img/svg/filter_icon.svg" alt="">
+                </label>
+                <input id="page_filter" type="checkbox">
+                <section class="page_filter_list">
+                    <h2 class="page_filter_list_item">category</h2>
+                    <div class="page_subfilter_list">
+                        <span class="page_subfilter_list_item">Accessories</span>
+                        <span class="page_subfilter_list_item">Bags</span>
+                        <span class="page_subfilter_list_item">Denim</span>
+                        <span class="page_subfilter_list_item">Hoodies & Sweatshirts</span>
+                        <span class="page_subfilter_list_item">Jackets & Coats</span>
+                        <span class="page_subfilter_list_item">Polos</span>
+                        <span class="page_subfilter_list_item">Shirts</span>
+                        <span class="page_subfilter_list_item">Shoes</span>
+                        <span class="page_subfilter_list_item">Sweaters & Knits</span>
+                        <span class="page_subfilter_list_item">T-Shirts</span>
+                        <span class="page_subfilter_list_item">Tanks</span>
+                    </div>
+                    <h2 class="page_filter_list_item">brand</h2>
+                    <h2 class="page_filter_list_item">designer</h2>
+                </section>
+            </nav>
 
             <div class="sorting">
                 <div class="sort_link">
                     <a class="sort_trend" href="#">TRENDING NOW</a>
                     <img src="img/svg/arrow_down_icon.svg" alt="arrow">
                 </div>
-                <div class="sort_link">
-                    <a class="sort_size" href="#">SIZE</a>
-                    <img src="img/svg/arrow_down_icon.svg" alt="arrow">
-                </div>
+                <nav>
+                    <div class="sort_link">
+                        <label class="size_choise" for="choise_size">
+                            <span class="sort_price">SIZE</span>
+                            <img src="img/svg/arrow_down_icon.svg" alt="arrow">
+                        </label>
+                        <input id="choise_size" type="checkbox">
+                        <ul class="size_list">
+                            <li class="size_list_item">
+                                <input type="checkbox">
+                                <span class="size_list_item_txt">XS</span>
+                            </li>
+                            <li class="size_list_item">
+                                <input type="checkbox">
+                                <span class="size_list_item_txt">S</span>
+                            </li>
+                            <li class="size_list_item">
+                                <input type="checkbox">
+                                <span class="size_list_item_txt">M</span>
+                            </li>
+                            <li class="size_list_item">
+                                <input type="checkbox">
+                                <span class="size_list_item_txt">L</span>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
                 <div class="sort_link">
                     <a class="sort_price" href="#">PRICE</a>
                     <img src="img/svg/arrow_down_icon.svg" alt="arrow">

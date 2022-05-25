@@ -720,9 +720,9 @@
 
 .footer_page {
     background: #222224;
-    padding: 24px 230px;
     display: flex;
     justify-content: space-between;
+    padding: 30px 0 30px 0;
 }
 
 .footer_all_rights {
@@ -732,8 +732,7 @@
     font-size: 16px;
     line-height: 19px;
     color: #FBFBFB;
-    margin-top: auto;
-    margin-bottom: auto;
+    align-items: center;
 }
 
 .footer_socialmedia {
@@ -747,7 +746,17 @@
     margin-right: 8px;
 }
 
+.socialmedia_item_last {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+}
+
 .socialmedia_item:hover {
+    background-color: #EF5B70;
+}
+
+.socialmedia_item_last:hover {
     background-color: #EF5B70;
 }
 

@@ -815,6 +815,34 @@
 .filter {
     margin: 0 304px 0 16px;
     display: flex;
+
+}
+
+.filter_text_active {
+    padding: 0 12px 0 0;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EF5B70;
+}
+
+.filter_active {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.filter_icon {
+    width: 17px;
+    height: 17px;
+}
+
+.filter_icon_active {
+    fill: #EF5B70;
+    width: 17px;
+    height: 17px;
 }
 
 .filter_text {
@@ -827,9 +855,6 @@
     color: #000000;
 }
 
-.filter_icon {
-    height: 17px;
-}
 
 /* drop filter start */
 
@@ -845,7 +870,8 @@
     background-color: #FFFFFF;
     padding: 16px;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
+    top: 262px;
     box-sizing: border-box;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.20);
 }

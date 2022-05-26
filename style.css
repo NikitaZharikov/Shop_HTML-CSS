@@ -82,7 +82,7 @@
     height: 100%;
     fill: #E8E8E8;
     padding-right: 16px;
-    transition: .2s linear;
+    transition: .2s ease;
 }
 
 .click_icon_search:hover {
@@ -102,19 +102,22 @@
     font-size: 16px;
     font-family: 'Lato';
     text-transform: capitalize;
+    opacity: 0%;
 }
 
 .search-icon-form__input:focus {
     min-width: 820px;
     min-height: 20px;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
+    opacity: 100%;
+    transition: 1s ease;
 }
 
 /* SEARCH END*/
 
 .logo {
     padding-right: 40px;
-    transition: .2s linear;
+    transition: .2s ease;
 }
 
 .logo:hover {
@@ -359,6 +362,12 @@
     display: flex;
     background-color: rgba(33, 22, 22, 0.7);
     background-blend-mode: darken;
+    transition: ease .5s;
+}
+
+.offer_card_for_women:hover {
+    transition: ease .5s;
+    transform: scale(1.01);
 }
 
 .offer_card_for_men {
@@ -371,6 +380,12 @@
     display: flex;
     background-color: rgba(33, 22, 22, 0.7);
     background-blend-mode: darken;
+    transition: ease .5s;
+}
+
+.offer_card_for_men:hover {
+    transition: ease .5s;
+    transform: scale(1.01);
 }
 
 .offer_card_for_kids {
@@ -383,6 +398,12 @@
     display: flex;
     background-color: rgba(33, 22, 22, 0.7);
     background-blend-mode: darken;
+    transition: ease .5s;
+}
+
+.offer_card_for_kids:hover {
+    transition: ease .5s;
+    transform: scale(1.01);
 }
 
 .offer_card_accesories {
@@ -396,6 +417,12 @@
     display: flex;
     background-color: rgba(33, 22, 22, 0.7);
     background-blend-mode: darken;
+    transition: ease .5s;
+}
+
+.offer_card_accesories:hover {
+    transition: ease .5s;
+    transform: scale(1.01);
 }
 
 .offer_card_text {
@@ -608,6 +635,11 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.feature_card:hover svg {
+    transition: .5s ease;
+    transform: rotate(360deg);
 }
 
 

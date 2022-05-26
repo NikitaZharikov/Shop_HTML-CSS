@@ -82,6 +82,7 @@
     height: 100%;
     fill: #E8E8E8;
     padding-right: 16px;
+    transition: .2s linear;
 }
 
 .click_icon_search:hover {
@@ -113,6 +114,11 @@
 
 .logo {
     padding-right: 40px;
+    transition: .2s linear;
+}
+
+.logo:hover {
+    filter: brightness(120%);
 }
 
 .menu_bar {
@@ -241,6 +247,7 @@
 
 .click_icon_burger {
     fill: #E8E8E8;
+    transition: .2s linear;
 }
 
 .click_icon_burger:hover {
@@ -249,6 +256,7 @@
 
 .click_icon_account {
     fill: #E8E8E8;
+    transition: .2s linear;
 }
 
 .click_icon_account:hover {
@@ -257,6 +265,7 @@
 
 .click_icon_cart {
     fill: #E8E8E8;
+    transition: .2s linear;
 }
 
 .click_icon_cart:hover {
@@ -445,6 +454,7 @@
 
 .products-item:hover .products-item-photo {
     filter: brightness(50%);
+    transition: .2s linear;
 }
 
 .products-item-txt-wrp {
@@ -493,6 +503,7 @@
     position: absolute;
     top: 188px;
     left: 32.7%;
+    transition: .2s linear;
 }
 
 .products-item-btn svg {
@@ -558,6 +569,7 @@
     color: #FF6A6A;
     border: 1px solid #FF6A6A;
     background-color: #FFFFFF;
+    transition: .2s linear;
 }
 
 .browse_all_product:hover {
@@ -567,7 +579,14 @@
 
 .page_number {
     color: #C4C4C4;
+    transition: .2s linear;
 }
+
+.page_number:hover {
+    color: #3b3838;
+}
+
+
 
 /* products list end ________________________________________*/
 
@@ -698,7 +717,13 @@
     color: #222224;
     opacity: 0.67;
     padding-left: 20px;
+    transition: .2s linear;
 }
+
+.submit_input:hover {
+    background: #cbcaca;
+}
+
 
 .submit_input_button {
     border: none;
@@ -712,6 +737,11 @@
     line-height: 17px;
     text-align: center;
     color: #FFFFFF;
+    transition: .2s linear;
+}
+
+.submit_input_button:hover {
+    background: #f2586d;
 }
 
 /* subscribe list end ________________________________________*/
@@ -744,12 +774,14 @@
     height: 32px;
     background-color: white;
     margin-right: 8px;
+    transition: .2s linear;
 }
 
 .socialmedia_item_last {
     width: 32px;
     height: 32px;
     background-color: white;
+    transition: .2s linear;
 }
 
 .socialmedia_item:hover {
@@ -762,6 +794,7 @@
 
 .icon_social {
     fill: #000000;
+    transition: .2s linear;
 }
 
 .icon_social:hover {
@@ -871,7 +904,7 @@
     padding: 16px;
     position: absolute;
     z-index: 2;
-    top: 262px;
+    top: 258px;
     box-sizing: border-box;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.20);
 }
@@ -1007,6 +1040,11 @@
 
 .arrow {
     height: 19px;
+    transition: .2s linear;
+}
+
+.arrow:hover {
+    fill: #F16D7F;
 }
 
 /* catalog end____________________________________________ */
@@ -1029,7 +1067,7 @@
 
 .left_right {
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 .arrow_left_right {
@@ -1127,7 +1165,9 @@
     font-size: 16px;
     line-height: 19px;
     color: #F26376;
+    transition: .2s linear;
 }
+
 
 
 .add_to_cart_icon {
@@ -1268,6 +1308,11 @@
     font-size: 13px;
     line-height: 16px;
     color: #B1B1B1;
+    transition: .2s linear;
+}
+
+.cart_register_input:hover {
+    border: 1px solid #202020;
 }
 
 .button_clear_get_quote {
@@ -1432,6 +1477,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: .2s linear;
+}
+
+.button_join_now:hover {
+    background: #f4475e;
 }
 
 .sign_sect_perks_block {

@@ -285,8 +285,11 @@
     justify-content: space-around;
 }
 
+.hero {
+    align-items: center;
+}
+
 .top_text {
-    margin: 286px 0 0 0;
     position: relative;
 }
 
@@ -322,7 +325,7 @@
 .p_top_text {
     font-family: 'Lato';
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 32px;
     line-height: 38px;
     color: #222222;
@@ -354,7 +357,7 @@
 
 .offer_card_for_women {
     width: 31%;
-    height: 260px;
+    min-height: 260px;
     background-image: url(img/picture/for_women.png);
     background-repeat: no-repeat;
     background-position: top center;
@@ -372,7 +375,7 @@
 
 .offer_card_for_men {
     width: 31%;
-    height: 260px;
+    min-height: 260px;
     background-image: url(img/picture/for_men.png);
     background-repeat: no-repeat;
     background-position: top center;
@@ -390,7 +393,7 @@
 
 .offer_card_for_kids {
     width: 31%;
-    height: 260px;
+    min-height: 260px;
     background-image: url(img/picture/for_kids.png);
     background-repeat: no-repeat;
     background-position: top center;
@@ -409,7 +412,7 @@
 .offer_card_accesories {
     margin: 30px 0 0 0;
     width: 100%;
-    height: 180px;
+    min-height: 180px;
     background-image: url(img/picture/accesories.png);
     background-repeat: no-repeat;
     background-position: top center;
@@ -427,7 +430,6 @@
 
 .offer_card_text {
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -461,6 +463,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.products-item-photo {
+    width: 100%;
 }
 
 /* HOVER CARD START*/
@@ -661,7 +667,6 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
-    text-align: center;
     color: #FBFBFB;
 }
 
@@ -678,6 +683,10 @@
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-between;
+}
+
+.sub_cont {
+    display: flex;
 }
 
 .subscribe_card_about {
@@ -785,6 +794,10 @@
     display: flex;
     justify-content: space-between;
     padding: 30px 0 30px 0;
+}
+
+.f_cont {
+    display: flex;
 }
 
 .footer_all_rights {
@@ -1545,3 +1558,180 @@
 }
 
 /* SIGN UP END */
+
+
+/* Adaptive TAB 768px start */
+
+@media (max-width:768px) {
+    .container {
+        max-width: 736px;
+    }
+
+    .search-icon-form__input:focus {
+        min-width: 420px;
+    }
+
+    .top_img {
+        height: 386px;
+        margin: 0 39px 0 109px;
+    }
+
+    .h1_top_text {
+        font-size: 44px;
+        line-height: 53px;
+    }
+
+    .p_top_text {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .offer {
+        padding: 65px 0 a154px 0;
+    }
+
+    .offer_card_for_women {
+        width: 31.5%;
+        min-height: 168px;
+    }
+
+    .offer_card_for_men {
+        width: 31.5%;
+        min-height: 168px;
+    }
+
+    .offer_card_for_kids {
+        width: 31.5%;
+        min-height: 168px;
+
+    }
+
+    .offer_card_accesories {
+        margin: 20px 0 0 0;
+        min-height: 116px;
+    }
+
+    .card_products {
+        max-width: 48%;
+    }
+
+    .feature_list {
+        padding: 0px 0 64px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature_card {
+        width: 100%;
+        margin-top: 48px;
+    }
+
+    .sub_cont {
+        max-width: 360px;
+        flex-direction: column;
+    }
+
+    .subscribe_card_about {
+        width: 100%;
+        margin-bottom: 48px;
+    }
+}
+
+/* Adaptive TAB 768px end */
+
+/* Adaptive MOB 375px start */
+
+@media(max-width: 375px) {
+
+    .container {
+        max-width: 343px;
+    }
+
+    .top_img {
+        display: none;
+    }
+
+    .nav_account {
+        display: none;
+    }
+
+    .nav_cart {
+        display: none;
+    }
+
+    .nav_burger {
+        padding: 0;
+    }
+
+    .top {
+        min-height: 363px;
+    }
+
+    .h1_top_text {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .p_top_text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .hero {
+        padding-left: 36px;
+        justify-content: center;
+    }
+
+    .top_text::before {
+        height: 61px;
+        top: 8px;
+    }
+
+    .offer_list {
+        flex-direction: column;
+    }
+
+    .offer_card_for_women {
+        width: 100%;
+        min-height: 247px;
+    }
+
+    .offer_card_for_men {
+        margin-top: 32px;
+        width: 100%;
+        min-height: 247px;
+    }
+
+    .offer_card_for_kids {
+        margin-top: 32px;
+        width: 100%;
+        min-height: 247px;
+
+    }
+
+    .offer_card_accesories {
+        margin: 32px 0 0 0;
+        min-height: 116px;
+    }
+
+    .card_products {
+        max-width: 100%;
+    }
+
+    .subscribe_card_sumbmit_text {
+        font-size: 14px;
+        line-height: 36px;
+    }
+
+    .f_cont {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer_all_rights {
+        margin-top: 40px;
+    }
+
+}
+
+/* Adaptive MOB 375px end */

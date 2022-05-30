@@ -893,7 +893,15 @@
 .filter {
     margin: 0 304px 0 16px;
     display: flex;
+    cursor: pointer;
+}
 
+.filter:hover span{
+    color: #EF5B70;
+}
+
+.filter:hover svg{
+    fill: #EF5B70;
 }
 
 .filter_text_active {
@@ -1004,6 +1012,7 @@
     font-size: 14px;
     line-height: 17px;
     color: #6F6E6E;
+    cursor: pointer;
 }
 
 .sort_link {
@@ -1646,6 +1655,9 @@
     .container {
         max-width: 343px;
     }
+    .search-icon-form__input:focus {
+        min-width: 160px;
+    }
 
     .top_img {
         display: none;
@@ -1731,7 +1743,6 @@
     .footer_all_rights {
         margin-top: 40px;
     }
-
 }
 
 /* Adaptive MOB 375px end */

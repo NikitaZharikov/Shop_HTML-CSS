@@ -27,14 +27,55 @@
                 </form>
             </div>
             <div class="menu_bar">
-                <a class="nav_burger" href="#">
-                    <svg class="click_icon_burger" width="32" height="24" viewBox="0 0 32 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <rect width="32" height="2" />
-                        <rect y="11" width="32" height="2" />
-                        <rect y="22" width="32" height="2" />
-                    </svg>
-                </a>
+                <nav>
+                    <label class="nav_burger" for="page_menu">
+                        <svg class="click_icon_burger" width="32" height="24" viewBox="0 0 32 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect width="32" height="2" />
+                            <rect y="11" width="32" height="2" />
+                            <rect y="22" width="32" height="2" />
+                        </svg>
+                    </label>
+                    <input id="page_menu" type="checkbox">
+                    <ul class="page_menu_list">
+                        <li class="page_menu_list_item">
+                            <a href="#" class="page_menu_list_close_btn"></a>
+                        </li>
+                        <li class="page_menu_list_item">
+                            <span class="page_menu_list_title">Menu</span>
+                        </li>
+                        <li class="page_menu_list_item">MAN</li>
+                        <li class="page_menu_list_item">
+                            <ul class="page_submenu_list">
+                                <li class="page_submenu_list_item">Accessories</li>
+                                <li class="page_submenu_list_item">Bags</li>
+                                <li class="page_submenu_list_item">Denim</li>
+                                <li class="page_submenu_list_item">T-Shirts</li>
+                            </ul>
+                        </li>
+                        <li class="page_menu_list_item">WOMAN</li>
+                        <li class="page_menu_list_item">
+                            <ul class="page_submenu_list">
+                                <li class="page_submenu_list_item">Accessories</li>
+                                <li class="page_submenu_list_item">Jackets & Coats</li>
+                                <li class="page_submenu_list_item">Polos</li>
+                                <li class="page_submenu_list_item">T-Shirts</li>
+                                <li class="page_submenu_list_item">Shirts</li>
+                            </ul>
+                        </li>
+                        <li class="page_menu_list_item">KIDS</li>
+                        <li class="page_menu_list_item">
+                            <ul class="page_submenu_list">
+                                <li class="page_submenu_list_item">Accessories</li>
+                                <li class="page_submenu_list_item">Jackets & Coats</li>
+                                <li class="page_submenu_list_item">Polos</li>
+                                <li class="page_submenu_list_item">T-Shirts</li>
+                                <li class="page_submenu_list_item">Shirts</li>
+                                <li class="page_submenu_list_item">Bags</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
                 <a class="nav_account" href="sign_up.html">
                     <svg class="click_icon_account" width="26" height="26" viewBox="0 0 26 26"
                         xmlns="http://www.w3.org/2000/svg">
@@ -338,7 +379,7 @@
 
 
     <section class="subscribe">
-        <div class="container center_block">
+        <div class="sub_cont container center_block">
             <article class="subscribe_card_about">
                 <img src="img/picture/subscribe_about_photo.png" alt="photo">
                 <p class="subscribe_card_about_text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
@@ -356,8 +397,9 @@
         </div>
     </section>
 
+
     <footer class="footer_page">
-        <div class="container center_block">
+        <div class="f_cont container center_block">
             <span class="footer_all_rights">© 2021 Brand All Rights Reserved.</span>
 
             <ul class="footer_socialmedia">

@@ -857,6 +857,10 @@
     background-color: #F8F3F4;
 }
 
+.breadcrumbs_links_item {
+    display: flex;
+}
+
 
 .active_color {
     font-family: 'Lato';

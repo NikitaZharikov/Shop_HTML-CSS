@@ -94,11 +94,11 @@
         </div>
     </header>
 
-    <div class="breadcrumbs">
+    <section class="breadcrumbs">
         <div class="bread_cont container center_block">
-            <span class="breadcrumbs_title">SHOPPING CART</span>
+            <h1 class="breadcrumbs_title">SHOPPING CART</h1>
         </div>
-    </div>
+    </section>
 
     <main>
         <div class="cart_items_register container">
@@ -107,7 +107,7 @@
                     <img class="cart_item_img" src="img/picture/product_3.png" alt="item3">
                     <div class="cart_item_discript">
                         <div class="main_title_in_cart">
-                            <span class="cart_item_title">MANGO PEOPLE <br> T-SHIRT</span>
+                            <header class="cart_item_title">MANGO PEOPLE <br> T-SHIRT</header>
                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -125,7 +125,7 @@
                             <span class="in_cart_param">Xl</span>
                         </span>
                         <span class="cart_item_param">Quantity:
-                            <input type="number" class="in_cart_input">
+                            <input type="number" class="in_cart_input" value="1" min="0">
                         </span>
                     </div>
                 </article>
@@ -133,7 +133,7 @@
                     <img class="cart_item_img" src="img/picture/product_7.png" alt="item7">
                     <div class="cart_item_discript">
                         <div class="main_title_in_cart">
-                            <span class="cart_item_title">MANGO PEOPLE <br> T-SHIRT</span>
+                            <header class="cart_item_title">MANGO PEOPLE <br> T-SHIRT</header>
                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -151,7 +151,7 @@
                             <span class="in_cart_param">Xl</span>
                         </span>
                         <span class="cart_item_param">Quantity:
-                            <input type="number" class="in_cart_input">
+                            <input type="number" class="in_cart_input" value="1" min="0">
                         </span>
                     </div>
                 </article>
@@ -161,17 +161,16 @@
                     <input class="button_continue_shoping" type="submit" value="CONTINUE SHOPPING">
                 </div>
             </section>
+
             <div class="cart_form_price">
-                <form class="cart_register" action="#">
+                <form class="cart_form" action="#">
                     <h2 class="cart_register_title">SHIPPING ADRESS</h2>
-                    <label for="town"></label>
+
                     <input class="cart_register_input" id="town" placeholder="Bangladesh" required
                         pattern="\S+[А-яа-я]">
 
-                    <label for="adress"></label>
                     <input class="cart_register_input" id="adress" placeholder="State" required pattern="\S+[А-яа-я]">
 
-                    <label for="postcode"></label>
                     <input class="cart_register_input" id="postcode" placeholder="Postcode / Zip" pattern="\S+[А-яа-я]">
 
                     <input class="button_clear_get_quote" type="reset" value="GET A QUOTE">
